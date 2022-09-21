@@ -1,0 +1,141 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  text-align: center;
+}
+
+.content {
+    text-align: center;
+    margin: 20px 0 30px 0; 
+}
+
+a {
+  padding: 0 10px;
+  text-decoration: none;
+  color:rgb(164, 156, 156);
+}
+
+.devider {
+  margin-bottom: 40px;
+}
+
+.document {
+  height: 550px;
+  background-image: url('../images/main-pic.png');
+  background-color:#D44B4B;
+  background-size: auto 480px;
+  background-repeat: no-repeat;
+  background-position: right  bottom  -50px;
+
+}
+
+.document__item {
+  padding-top: 50px;
+}
+
+.document__desc { 
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 53px;
+  color: #fff;
+
+}
+
+.document__button {
+  font-size: 23px;
+  font-weight: bold;
+  border: 1px solid #fff;
+  background-color: #fff;
+  color:#475658 ;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.risk {
+  text-align: center;
+  margin-top: 150px;
+}
+.risk__title {
+  font-size: 45px;
+  line-height: 1,3px;
+  color: #03073C;
+  font-weight: normal;
+
+}
+
+.risk__desc {
+  font-size: 18px;
+  line-height:1,5;
+  color: #03073C;
+  font-weight: normal;
+}
+
+.info {
+  margin-top: 110px;
+  text-align: center;
+}
+
+
+.info__item { 
+  display: inline-block;
+  margin: 0 45px 50px 45px;
+}
+
+.info__item-title {
+  text-align: center;
+  font-size: 35px;
+}
+
+.info__item-desc {
+  font-size: 15px;
+}
+
+.info_image_first {
+  text-align: center;
+}
+
+.info_image_second {
+  padding-top: 30px;
+
+}
+
+.info_image_third{
+  padding-top: 10px;
+}
+
+footer {
+  margin-top: 100px;
+  background-color: #475658;
+  color: #fff;
+  font-size: 14px;
+  padding: 20px ;
+}
+
+.footer_item {
+  display: flex;
+  margin-left: 10px;
+}
+
+.footer_item_desc {
+  margin-left: 30px;
+}
+
+.item_one {
+  background-image: url("../images/mark.png");
+  background-repeat: no-repeat;
+  background-position: 0 center;
+}
+
+.item_two{
+  background-image: url("../images/phone.png");
+  background-repeat: no-repeat;
+  background-position: 0 center;
+}
